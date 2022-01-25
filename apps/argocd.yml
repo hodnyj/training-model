@@ -4,12 +4,12 @@ metadata:
   name: argocd
   namespace: argo
   labels:
-    cluster: c0
+    cluster: c8
     app: argocd
 spec:
   project: default
   source:
-    repoURL: https://gitlab.com/tomkukral/training-model.git
+    repoURL: https://github.com/hodnyj/training-model.git
     targetRevision: HEAD
     path: argo/cd
   destination:
